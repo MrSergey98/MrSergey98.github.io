@@ -9,10 +9,6 @@ height: 120px;
 margin-left: auto;
 display: block;
 }
-#headcont {
-max-width: 960px;
-margin: 0 auto;
-}
 #headtext {
 padding: 10px;
 margin-top: 37px;
@@ -52,4 +48,7 @@ color: red;
 tr:nth-child(odd) {
 background-color: #b0e0e6;
 }
-
+#headcont {
+max-width: 960px;
+margin: 0 auto;
+}
