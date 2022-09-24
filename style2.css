@@ -74,10 +74,9 @@ margin: 0 auto;
     max-width: 960px;
     }
     #nav {
-    display: flex;
     display-direction: row;
     }
-    #link1, #link2, #link3, #link4{
-    margin: 5px;
+    ul.nav li{
+    display: inline;
     }
 }
