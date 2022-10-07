@@ -20,8 +20,7 @@ function onClick() {
 
 document.addEventListener("DOMContentLoaded", function (event) {
     var b = document.getElementById("btn");
-    alert(event.type + " на " + event.currentTarget);
-    console.log("DOM fully loaded and parsed");
+    console.log(event.type + " на " + event.currentTarget);
     b.addEventListener("click", onClick);
 
 });
