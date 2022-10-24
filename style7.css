@@ -35,13 +35,13 @@ img {
 
 .slider .slick-arrow.slick-prev {
     left: 0;
-    background: url('https://i.ibb.co/7G8fWL8/1.png');
+    background: url("https://i.ibb.co/7G8fWL8/1.png");
     border: none;
 }
 
 .slider .slick-arrow.slick-next {
     right: 0;
-    background: url('https://i.ibb.co/T4Z34Zs/2.png');
+    background: url("https://i.ibb.co/T4Z34Zs/2.png");
     border: none;
 }
 
