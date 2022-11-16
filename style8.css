@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.myButton{
+	margin-top:40vh;
+	height: 5vh;
+	width: 15vw;
+    margin-left: 20px;
+	max-width: 200px;
+	min-width: 100px;
+	min-height: 40px;
+	font-size: 16px;
+	background-color: rgba(0, 226, 215, 0.656);
+	border-radius: 0.6em;
+    transition: .5s;
+}
+.myButton:hover {
+    background-color: rgba(0, 226, 215);
+    transform: scale(1.2);
+}
+
+textarea{
+	resize: none;
+}
+
+#slide{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5vh;
+}
+
+@media (max-width: 400px) {
+	#myForm {
+		width: 80vw;
+		max-width: 300px;
+		height: 80vh;
+		max-height: 400px;
+		border-radius: 4px;
+		padding: 5px 9px;
+		background: #e18fe4cc;
+		position: fixed;
+		top: 0; left: 0; right: 0; bottom: 0;
+		margin: auto;
+		display: none;
+		opacity: 0;
+		z-index: 1;
+		text-align: center;
+		
+	}
+
+	#email_polz{
+		max-width: 40vw;
+	}
+
+	#mes{
+		max-width: 50vw;
+	}
+
+	#name_polz{
+		max-width: 50vw;
+	}
+
+	.pole{
+		margin-top: 5vh;
+		text-align: left;
+		max-width: 75vw;
+	}
+}
+
+@media (min-width: 400px ) {
+	#myForm {
+		width: 25vw;
+		min-width: 300px;
+		height: 50vh;
+		min-height: 400px;
+		padding: 18px 9px;
+		border-radius: 4px;
+		background: #e18fe4cc;
+		position: fixed;
+		top: 0; left: 0; right: 0; bottom: 0;
+		margin: auto;
+		display: none;
+		opacity: 0;
+		z-index: 1;
+		text-align: center;
+	}
+
+	.pole{
+		margin-top: 5vh;
+		text-align: left;
+	}
+}
+#email_polz{
+	max-width: 25vw;
+}
+
+#myOverlay {
+	z-index: 0;
+    position: fixed;
+    background: rgba(89, 89, 89, 0.8);
+    width: 100%; height: 100%;
+    cursor: pointer;
+    display: none;
+}
